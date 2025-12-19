@@ -7,7 +7,7 @@ export default function RegisterForm(params) {
     <>
       <div className="container">
         <div className="register-block content-block">
-          <h1 className="text-center mb-3">Форма реєстрації</h1>
+          <h2 className="text-center mb-3">Форма реєстрації</h2>
           <form>
             <label htmlFor="username">Ім’я користувача</label>
             <Input
