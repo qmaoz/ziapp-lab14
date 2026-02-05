@@ -15,9 +15,20 @@ Website for efficient and convenient German vocabulary learning
 # Run the server
 
 > [!IMPORTANT]
-> First, run a DBMS on Your PC.
+> First, run the **PostgreSQL service** on Your PC.
 
-- Go to the "server" folder using a terminal:
+- Create a file named ```.env``` in the **“server”** folder with the following content:
+```
+SERVER_PORT=3001
+DB_USER=YOUR_DB_USER
+DB_PASSWORD=YOUR_DB_PASSWORD
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=YOUR_DB_NAME
+DB_DIALECT=postgres
+```
+
+- Go to the **server** folder using a terminal:
 
   ```cd server```
 
@@ -27,7 +38,7 @@ Website for efficient and convenient German vocabulary learning
 
 # Run the client
 
-- Go to the "client" folder using a terminal:
+- Go to the ```client``` folder using a terminal:
 
 ```cd client```
 
