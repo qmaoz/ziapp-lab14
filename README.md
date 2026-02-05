@@ -4,28 +4,25 @@ Website for efficient and convenient German vocabulary learning
 
 # Download the project
 
-1. Clone and open the repository using terminal:
+- Clone and open the repository using the terminal:
 
 ```bash
-  git clone https://github.com/qmaoz/top-words.git
+git clone https://github.com/qmaoz/top-words.git
 ```
+```bash
+cd top-words
+```
+- Install all dependencies:
 
 ```bash
-  cd top-words
+npm install
 ```
-
-2. Install all dependencies:
-
-```bash
-  npm install
-```
-
 # Run the server
 
 > [!IMPORTANT]
 > First, run the **PostgreSQL service** on Your PC.
 
-Create a file named ```.env``` in the ```server``` folder with the following content:
+- Create a file named ```.env``` in the ```server``` folder with the following content:
 ```
 SERVER_PORT=3001
 DB_USER=YOUR_DB_USER
@@ -36,38 +33,35 @@ DB_NAME=YOUR_DB_NAME
 DB_DIALECT=postgres
 ```
 
-
-Go to the ```server``` folder using a terminal:
+- Go to the ```server``` folder using a terminal:
 
 ```bash
-  cd server
+cd server
 ```
 
-
-Run the server:
+- Run the server:
 
 ```bash
-  npm run start:dev
+npm run start:dev
 ```
 
 # Run the client
 
-Go to the ```client``` folder using a terminal:
+- Go to the ```client``` folder using a terminal:
 
 ```bash
-  cd client
+cd client
 ```
 
-
-Run the client:
+- Run the client:
 
 ```bash
-  npm run start
+npm run start
 ```
 
 # Open the website
 
-Normally, the website opens automatically after starting the client, but you can also open it manually using this URL:
+- Normally, the website opens automatically after starting the client, but you can also open it manually using this URL:
 
 ```bash
 http://localhost:3000/
