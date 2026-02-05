@@ -2,6 +2,9 @@
 
 Website for efficient and convenient German vocabulary learning.
 
+> [!NOTE]
+> The website is still under development.
+
 ## Info
 
 ### Purpose
