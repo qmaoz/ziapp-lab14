@@ -5,23 +5,23 @@ Website for efficient and convenient German vocabulary learning
 # Download the project
 
 - Clone the repository:
-```git clone https://github.com/qmaoz/top-words.git```
+  ```git clone https://github.com/qmaoz/top-words.git```
 
 - Install all dependencies:
-```npm install```
+  ```npm install```
 
 # Run the server
 
 - Go to the "server" folder using a terminal:
 
-```cd server```
+  ```cd server```
 
 > [!IMPORTANT]
 > Run a DBMS on Your PC.
 
 - Run the server:
 
-```npm run start:dev```
+  ```npm run start:dev```
 
 # Run the client
 
