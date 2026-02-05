@@ -4,9 +4,11 @@ Website for efficient and convenient German vocabulary learning
 
 # Download the project
 
-Clone the repository:
+1. Clone the repository:
 
-  ```git clone https://github.com/qmaoz/top-words.git```
+  ```bash
+  git clone https://github.com/qmaoz/top-words.git
+  ```
 
 
 Install all dependencies:
