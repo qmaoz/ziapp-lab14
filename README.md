@@ -2,6 +2,21 @@
 
 Website for efficient and convenient German vocabulary learning.
 
+## Info
+
+### General
+
+The project is licensed under CC0.
+
+The project consists of two main modules, which are different projects:
+- ```/server``` — contains the server project
+- ```/client``` — contains the client project
+
+### Tech Stack
+
+- React (frontend framework)
+- React Router (routing)
+
 ## How to run locally
 
 ### 1. Download the project
@@ -19,7 +34,7 @@ cd top-words
 ### 2. Run the server
 
 > [!IMPORTANT]
-> First, run the **PostgreSQL service** on Your PC.
+> First, start the **PostgreSQL service** on your PC to access the database.
 
 - Go to the ```server``` folder using a terminal:
 
@@ -77,10 +92,3 @@ npm run start
 ```bash
 http://localhost:3000/
 ```
-
-## Info
-
-### Tech Stack
-
-- React (frontend framework)
-- React Router (routing)
