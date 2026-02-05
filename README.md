@@ -2,22 +2,26 @@
 
 Website for efficient and convenient German vocabulary learning
 
-# Download the project
+## How to run locally
+
+### 1. Download the project
 
 - Clone and open the repository using the terminal:
 
 ```bash
 git clone https://github.com/qmaoz/top-words.git
 ```
+
 ```bash
 cd top-words
 ```
+
 - Install all dependencies:
 
 ```bash
 npm install
 ```
-# Run the server
+### 2. Run the server
 
 > [!IMPORTANT]
 > First, run the **PostgreSQL service** on Your PC.
@@ -45,9 +49,9 @@ cd server
 npm run start:dev
 ```
 
-# Run the client
+### 3. Run the client
 
-- Go to the ```client``` folder using a terminal:
+- Go to the ```client``` folder using another terminal:
 
 ```bash
 cd client
@@ -59,10 +63,17 @@ cd client
 npm run start
 ```
 
-# Open the website
+### 4. Open the website
 
 - Normally, the website opens automatically after starting the client, but you can also open it manually using this URL:
 
 ```bash
 http://localhost:3000/
 ```
+
+## Info
+
+### Tech Stack
+
+- React (frontend framework)
+- React Router (routing)
