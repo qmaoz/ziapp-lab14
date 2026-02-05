@@ -4,6 +4,12 @@ Website for efficient and convenient German vocabulary learning.
 
 ## Info
 
+### Purpose
+
+Provides lists of the most frequently used German words for learning. The website helps users learn hundreds of words in a very effective and convenient way.
+
+After creating an account, the user will practice “translation exercises.” The user will learn not individual words, but entire sentences in order to understand the context in which a particular word is used! This ensures that the user will be able to use the new word in the correct context immediately after learning it.
+
 ### General
 
 The project is licensed under CC0.
