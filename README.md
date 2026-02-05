@@ -8,6 +8,7 @@ Clone the repository:
 
   ```git clone https://github.com/qmaoz/top-words.git```
 
+
 Install all dependencies:
 
   ```npm install```
@@ -28,9 +29,11 @@ DB_NAME=YOUR_DB_NAME
 DB_DIALECT=postgres
 ```
 
+
 Go to the ```server``` folder using a terminal:
 
   ```cd server```
+
 
 Run the server:
 
@@ -41,6 +44,7 @@ Run the server:
 Go to the ```client``` folder using a terminal:
 
 ```cd client```
+
 
 Run the client:
 
