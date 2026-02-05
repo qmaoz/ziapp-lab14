@@ -1,6 +1,6 @@
 # Top-words
 
-Website for efficient and convenient German vocabulary learning
+Website for efficient and convenient German vocabulary learning.
 
 ## How to run locally
 
@@ -16,15 +16,22 @@ git clone https://github.com/qmaoz/top-words.git
 cd top-words
 ```
 
+### 2. Run the server
+
+> [!IMPORTANT]
+> First, run the **PostgreSQL service** on Your PC.
+
+- Go to the ```server``` folder using a terminal:
+
+```bash
+cd server
+```
+
 - Install all dependencies:
 
 ```bash
 npm install
 ```
-### 2. Run the server
-
-> [!IMPORTANT]
-> First, run the **PostgreSQL service** on Your PC.
 
 - Create a file named ```.env``` in the ```server``` folder with the following content:
 ```
@@ -35,12 +42,6 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=YOUR_DB_NAME
 DB_DIALECT=postgres
-```
-
-- Go to the ```server``` folder using a terminal:
-
-```bash
-cd server
 ```
 
 - Run the server:
@@ -55,6 +56,12 @@ npm run start:dev
 
 ```bash
 cd client
+```
+
+- Install all dependencies:
+
+```bash
+npm install
 ```
 
 - Run the client:
